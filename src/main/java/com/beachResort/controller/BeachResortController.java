@@ -19,8 +19,8 @@ public class BeachResortController {
     }
     @GetMapping("/about")
     public String showAboutPage(Model model) {
-        beachResortService.reservedRoom();
-        System.out.println("Done");
+       // beachResortService.reservedRoom();
+       // System.out.println("Done");
         return "html/about";
     }
     @GetMapping("/rooms")
